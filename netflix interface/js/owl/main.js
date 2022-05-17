@@ -1,3 +1,6 @@
+
+//      BACKGROUND COVER TRANSITION
+
 var images = ['../img/bg10.jpg','../img/bg9.jpg','../img/bg8.jpg','../img/bg7.jpg','../img/bg6.jpg','../img/bg5.jpg','../img/bg4.jpg','../img/bg2.jpg','../img/bg3.jpg','../img/opcapa1.jpg'];
     index = 0;
     maxImages = images.length - 1;
@@ -9,6 +12,8 @@ var images = ['../img/bg10.jpg','../img/bg9.jpg','../img/bg8.jpg','../img/bg7.jp
            $(this).css({'background-size': 'cover'}).fadeIn();
          });
      }, 8000);
+
+     // CAROUSEL MECHANICS
 
 $('.owl-carousel').owlCarousel({
     loop:true,

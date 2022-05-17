@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIECEflix</title>
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/responsivo.css">
+    <link href="//db.onlinewebfonts.com/c/82848488b73a87d72f2436c02b9ab608?family=ONE+PIECE" rel="stylesheet"
+        type="text/css" />
+    <link rel="icon" type="image/jpg" href="img/mugi.png">
+    <link rel="stylesheet" href="style/janela.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header id="inicio">
+        <div class="container">
+            <h2 class="logo">PIECEflix</h2>
+            <img class="icon" src="img/mugi.png">
+            <nav class="navmenu">
+                <a href="#inicio"><i class="fa-solid fa-house"></i>Início</a>
+                <a href="#sagas"><i class="fa-solid fa-skull-crossbones"></i>Sagas</a>
+                <a href="#filmes"><i class="fa-solid fa-skull"></i>Filmes</a>
+                <a href="#especiais"><i class="fa-solid fa-book-skull"></i>Especiais</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="bg" class="filme-principal">
+            
+            <div class="container">
+                <h3 class="titulo">ONE PIECE</h3>
+                <p class="descricao">O capitão Luffy navega com sua tripulação à procura de um tesouro que pode torná-lo
+                    o novo rei dos piratas.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+
+                    <button id="btnModal" role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+
+                            <!-- MODAL START -->
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="modalMenu" class="modal hidden">
+                        
+            <div class="modal-content">
+
+                <span class="fecha"><i class="fa-solid fa-circle-xmark"></i></span>
+
+                <h2>Últimas notícias</h2><br>
+                    <hr>
+                    <section>
+                        <h3 class="titulo">
+                            Assista ao mais recente trailer do novo filme de One Piece!
+                        </h3><br>
+                        <div class="container">
+                        <div class="grid-item">
+                        <iframe class="video" width="480" height="360"
+                            src="https://www.youtube.com/embed/zR5DoUUovc0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                            picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item">
+                        <p>
+                            Divulgado novo trailer de One Piece Film: Red.
+                            O Filme contará com uma nova personagem, Uta, filha de Shanks,
+                            um dos quatro Yonkous.
+                            
+                            One Piece Film: Red estréia em maio, no Japão.
+                            <br><br>
+                            Veja a sinopse:<br>
+                            <button class="botao" onclick="sinopse()" style="margin-top: 5px;">Mostrar Sinopse</button>
+                            
+                        </p>
+                        
+                        <p id="outResposta" style="margin: 10px 10px 10px 10px; display: none; background: rgb(73, 70, 70); border-radius: 15px; padding: 10px 10px; border-style:none; box-shadow: inset 0 0 1em rgb(53, 130, 255); " class="sinopse"><i>Uta — a cantora mais amada do mundo.
+                            Sua voz, com a qual ela canta enquanto esconde sua verdadeira identidade, foi descrita como
+                            “de outro mundo”.
+                            Ela aparecerá em público pela primeira vez em um show ao vivo.
+                            À medida que o local se enche de todos os tipos de fãs de Uta – piratas animados,
+                            a Marinha assistindo de perto e os Chapéus de Palha liderados por Luffy que simplesmente
+                            vieram curtir sua performance sonora – a voz que o mundo inteiro estava esperando está prestes a ressoar.
+                             A história começa com o fato chocante de que ela é ‘filha de Shanks’.</i></p>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                    <hr>
+                    <section>
+                        <h3 class="titulo">Anunciado novo jogo de One Piece!</h3>
+                        <br>
+                        <div class="container">
+                        <div class="grid-item">
+                        <iframe class="video" width="480" height="360"
+                            src="https://www.youtube.com/embed/tWgE9fnyy1g" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                            picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="grid-item">
+                        <p>
+                            BANDAI NAMCO anuncia o novo jogo de One Piece.
+                            A mais nova aventura dos Chapéus de Palha nos consoles será
+                            escrita pelo autor da obra, Eiichiro Oda, e contará com elementos de RPG
+                            e Mundo Aberto!
+                            <br><br>
+                            Assista agora mesmo ao trailer!
+                        </p>
+                        </div>
+                        </div>
+                    </section>
+            </div>        
+        </div>
+
+                                <!-- MODAL END -->
+
+    </main>
+
+                                    <!-- ARCS SECTION -->
+
+    <section id="sagas">
+        <div class="carrosel-filmes">
+            <div class="container">
+                <h3 class="subtitulo" id="#sagas">SAGAS<img src="/img/nami.png" style="margin-left:20px;" alt="" class="icon"></h3>
+                
+            </div>
+            
+            <div class="brand-carousel-gradient left"></div>
+            <div class="brand-carousel-gradient right"></div>
+            
+            <div class="owl-carousel owl-theme" position="relative">
+                <div class="item">
+                    <a href="https://youtu.be/FNR0TW4EPwM" target="_blank"><img class="box-filme" src="img/eastblue.jpg"
+                            alt="Saga Eastblue" srcset=""></a>
+                            <p>Saga East Blue: Episódio de 1 ao 60</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/ep_2LNgcGxQ" target="_blank"><img class="box-filme" src="img/alabasta.jpg"
+                            alt="Saga Alabasta" srcset=""></a>
+                            <p>Saga Alabasta: Episódio de 61 ao 130</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/-qC60miA8JE" target="_blank"><img class="box-filme" src="img/skypiea.jpg"
+                            alt="Saga Skypiea" srcset=""></a>
+                            <p>Saga Skypiea: Episódio de 131 ao 206</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/npufTv1ifNg" target="_blank"><img class="box-filme"
+                            src="img/enieslobby.jpg" alt="Saga Enies Lobby" srcset=""></a>
+                            <p>Saga Enies Lobby: Episódio de 207 ao 325</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/sAtZoIFW2Uw" target="_blank"><img class="box-filme"
+                            src="img/thrillerbark.jpg" alt="Saga Thriller Bark" srcset=""></a>
+                            <p>Saga Thriller Bark: Episódio de 326 ao 381</p>
+                        </div>
+                <div class="item">
+                    <a href="https://youtu.be/xDeQP5Y7Tus" target="_blank"><img class="box-filme" src="img/sabaody.jpg"
+                            alt="Saga Sabaody" srcset=""></a>
+                            <p>Saga Arquipélago Sabaody: Episódio de 382 ao 421</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/J_K63IovR2Y" target="_blank"><img class="box-filme"
+                            src="img/impeldown.jpg" alt="Saga Impel Down" srcset=""></a>
+                            <p>Saga Impel Down: Episódio de 422 ao 456</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/dM7x1PNZDo0" target="_blank"><img class="box-filme"
+                            src="img/marineford.jpg" alt="Saga Marineford" srcset=""></a>
+                            <p>Saga Marineford: Episódio de 457 ao 516</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/1_CTSdktbKU" target="_blank"><img class="box-filme" src="img/tritao.jpg"
+                            alt="Saga Ilha dos Tritões" srcset=""></a>
+                            <p>Saga Ilha dos Tritões: Episódio de 517 ao 578</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/eISeERPgmZ4" target="_blank"><img class="box-filme"
+                            src="img/punkhazard.jpg" alt="Saga Punk Hazard" srcset=""></a>
+                            <p>Saga Punk Hazard: Episódio de 579 ao 628</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/Kq2Jb_NK59U" target="_blank"><img class="box-filme"
+                            src="img/dressrosa.jpg" alt="Saga Dressrosa" srcset=""></a>
+                            <p>Saga Dressrosa: Episódio de 629 ao 782</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/0o3bpziP6Po" target="_blank"><img class="box-filme"
+                            src="img/wholecake.jpg" alt="Saga Ilha Whole Cake" srcset=""></a>
+                            <p>Saga Whole Cake: Episódio de 783 ao 877</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/ha0-qytMD9k" target="_blank"><img class="box-filme" src="img/wano.jpg"
+                            alt="Saga Wano" srcset=""></a>
+                            <p>Saga Wano: Episódio de 878 ao Atual </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                            <!-- MOVIE SECTION -->
+
+    <section id="filmes">
+        <div class="carrosel-filmes">
+            <div class="container">
+                <h3 class="subtitulo">FILMES <img src="/img/usopp.png" alt="" class="icon"></h3>
+            </div>
+            <div class="brand-carousel-gradient left"></div>
+            <div class="brand-carousel-gradient right"></div>
+            
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://youtu.be/eEApDotghec"><img class="box-filme" src="img/film1.jpg"
+                            alt="Filme 1: O Grande Pirata de Ouro" srcset=""></a>
+                            <p>One Piece Filme 1: O Grande Pirata de Ouro</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/wwumv_IcxJo" target="_blank"><img class="box-filme" src="img/film2.jpg"
+                            alt="Filme 2: Aventura na Ilha Nejimaki" srcset=""></a>
+                            <p>One Piece Filme 2: Aventura na Ilha Nejimaki</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/K65OpdS3Hsk" target="_blank"><img class="box-filme" src="img/film3.jpg"
+                            alt="Filme 3: O Reino de Chopper na Ilha dos Estranhos Animais!" srcset=""></a>
+                            <p>One Piece Filme 3: O Reino de Chopper na Ilha dos Estranhos Animais!</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/I4oOj_6kGYc" target="_blank"><img class="box-filme" src="img/film4.jpg"
+                            alt="Filme 4: Aventura Mortal!" srcset=""></a>
+                            <p>One Piece Filme 4: Aventura Mortal!</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/1v66USnVnPs" target="_blank"><img class="box-filme" src="img/film5.jpg"
+                            alt="Filme 5: A Maldição da Espada Sagrada" srcset=""></a>
+                            <p>One Piece Filme 5: A Maldição da Espada Sagrada</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/NVt5Gsy9VKU" target="_blank"><img class="box-filme" src="img/film6.jpg"
+                            alt="Filme 6: Barão Omatsuri e a Ilha Secreta" srcset=""></a>
+                            <p>One Piece Filme 6: Barão Omatsuri e a Ilha Secreta</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/P7soCjGOP14" target="_blank"><img class="box-filme" src="img/film7.jpg"
+                            alt="Filme 7: Os Mechas do Castelo Karakuri!" srcset=""></a>
+                            <p>One Piece Filme 7: Os Mechas do Castelo Karakuri!</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/tE6lEcnyJEE" target="_blank"><img class="box-filme" src="img/film8.jpg"
+                            alt="Filme 8: Epidosio de Alabasta" srcset=""></a>
+                            <p>One Piece Filme 8: Epidosio de Alabasta</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/OAlfN-VbGJI" target="_blank"><img class="box-filme" src="img/film9.jpg"
+                            alt="Filme 9: Flor de Inverno, Milagre da Cerejeira" srcset=""></a>
+                            <p>One Piece Filme 9: Flor de Inverno, Milagre da Cerejeira</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/3n58UPvcD7I" target="_blank"><img class="box-filme"
+                            src="img/strongworld.jpg" alt="Filme 10: Strong World" srcset=""></a>
+                            <p>One Piece Filme 10: Strong World</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/15wYPEDnDBI" target="_blank"><img class="box-filme" src="img/film11.jpg"
+                            alt="Filme 11: Mugiwara Chase" srcset=""></a>
+                            <p>One Piece Filme 11: Mugiwara Chase</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/u47EKuaCihA" target="_blank"><img class="box-filme" src="img/filmz.jpg"
+                            alt="Filme 12: Z" srcset=""></a>
+                            <p>One Piece Filme 12: Z</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/_shEgcWHC2U" target="_blank"><img class="box-filme" src="img/filmgold.jpg"
+                            alt="Filme 13: Gold" srcset=""></a>
+                            <p>One Piece Filme 13: Gold</p>
+                </div>
+                <div class="item">
+                    <a href="https://youtu.be/S8_YwFLCh4U" target="_blank"><img class="box-filme" src="img/stampede.jpg"
+                            alt="Filme 14: Stampede" srcset=""></a>
+                            <p>One Piece Filme 14: Stampede</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OVA's SECTION -->
+
+    <section id="especiais">
+        <div class="carrosel-filmes">
+            <div class="container">
+                <h3 class="subtitulo">
+                    ESPECIAIS <img src="/img/sanji.png" style="width: 3.3%; margin-left: 9px; vertical-align: text-bottom;" alt="" class="icon">
+
+                </h3>
+            </div>
+            <div class="brand-carousel-gradient left"></div>
+            <div class="brand-carousel-gradient right"></div>
+            
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/466/One_Piece__Taose_Kaizoku_Ganzack" target="_blank"><img class="box-filme" src="img/ganzaki.jpg" alt="One Piece: Derrotem o Pirata Ganzack" srcset=""></a>
+                    <p>Derrotem o Pirata Ganzack!</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/2386/One_Piece__Yume_no_Soccer_Ou" target="_blank"><img class="box-filme" src="img/futebol.jpg" alt="O Rei do Futebol dos Sonhos" srcset=""></a>
+                    <p>O Rei do Futebol dos Sonhos</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/1094/One_Piece__Umi_no_Heso_no_Daibouken-hen" target="_blank"><img class="box-filme" src="/img/oceano.jpg" alt="One Piece: Aventura no Meio do Oceano!" srcset=""></a>
+                    <p>Aventura no Meio do Oceano!</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/5252/One_Piece__Romance_Dawn_Story" target="_blank"><img class="box-filme" src="/img/romance.jpg" alt="One Piece: Romance Dawn" srcset=""></a>
+                    <p>Romance Dawn</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/16239/One_Piece__Episode_of_Luffy_-_Hand_Island_no_Bouken" target="_blank"><img class="box-filme" src="/img/luffy.jpg" alt="One Piece: Episódio Luffy" srcset=""></a>
+                    <p>Episódio Luffy</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/19123/One_Piece__Episode_of_Merry_-_Mou_Hitori_no_Nakama_no_Monogatari" target="_blank"><img class="box-filme" src="/img/merry.jpg" alt="One Piece Episódio do Merry" srcset=""></a>
+                    <p>Episódio Merry</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/25161/One_Piece_3D2Y__Ace_no_shi_wo_Koete_Luffy_Nakama_Tono_Chikai" target="_blank"><img class="box-filme" src="/img/3d2y.jpg" alt="One Piece 3D2Y" srcset=""></a>
+                    <p>One Piece 3D2Y</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia" target="_blank"><img class="box-filme" src="/img/nebuland.jpg" alt="One Piece: Aventura em Nebulândia" srcset=""></a>
+                    <p>Aventura em Nebulândia</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/33338/One_Piece__Heart_of_Gold" target="_blank"><img class="box-filme" src="/img/ouro.jpg" alt="One Piece: Coração de Ouro" srcset=""></a>
+                    <p>Coração de Ouro</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/33606/One_Piece_Film__Gold_Episode_0_-_711_ver" target="_blank"><img class="box-filme" src="/img/zerogold.jpg" alt="One Piece Film Gold: Episódio 0" srcset=""></a>
+                    <p>Filme Gold: Episódio 0</p>
+                </div>
+                <div class="item">
+                    <a href="https://myanimelist.net/anime/37902/One_Piece__Episode_of_Sorajima" target="_blank"><img class="box-filme" src="/img/sorajima.jpg" alt="One Piece Episódio Skypiea" srcset=""></a>
+                    <p>Episódio Skypiea</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+
+            <!--Container Begin-->
+
+        <div class="container">
+
+            <!--Grid 1-->
+
+        <div class="grid-item">
+            <h3 style="text-align:start;">Contato</h3><br>
+        <p style="text-align:start;">
+        Desenvolvido por Rodnei Caetano.
+        <br>      
+        E-Mail: rmcaetano04@gmail.com<br>
+        </p>
+        </div>
+
+            <!--Grid 2-->
+
+        <div class="grid-item" style="text-align:start;">
+            <h3>Links</h3><br>
+        <a class="links" style="padding-right: 10px;" href="https://github.com/rodnei-c" target="_blank"><img src="img/githubicon.png" class="icon"></a>
+        <a class="links" href="https://www.linkedin.com/in/rodnei-caetano/" target="_blank"><img src="img/linkedinicon.png" class="icon"></a>
+        </div>
+        </div>
+
+            <!--Container End-->
+            <!--Footer End-->
+
+        <hr>
+        <p style="text-align:center; padding-bottom: 30px;"><br>
+        Todos os direitos reservados a Toei Animation Co., Ltd. e Eiichiro Oda.
+        </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/1447f66eb1.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+    <script src="js/owl/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="js/owl/janela.js"></script>
+    
+</body>
+
+</html>

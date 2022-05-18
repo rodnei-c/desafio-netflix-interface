@@ -16,26 +16,33 @@ btn.onclick = function() {
 }
 
 span.onclick = function() {
+  var sinopse = document.getElementById("outResposta");
   modal.style.display = "none";
-
+  
   modal.classList.toggle("hidden");
 
-    if (!modal.classList.contains("hidden")) {       
+    if (!modal.classList.contains("hidden")) {   
+           
         body.style.overflow = "hidden";
-    } else {       
+    } else {  
+        sinopse.style.display = "none";      
         body.style.overflow = "auto";
     }
 }
 
 window.onclick = function(event) {
+  var sinopse = document.getElementById("outResposta");
+  
   if (event.target == modal) {
     modal.style.display = "none";
-
+    
     modal.classList.toggle("hidden");
 
-    if (!modal.classList.contains("hidden")) {        
+    if (!modal.classList.contains("hidden")) {   
+           
         body.style.overflow = "hidden";
     } else {       
+        sinopse.style.display = "none"; 
         body.style.overflow = "auto";
     }
   }
@@ -45,6 +52,7 @@ function sinopse() {
   var sinopse = document.getElementById("outResposta");
   if (sinopse.style.display === "block") {
     sinopse.style.display = "none";
+    
   } else {
     sinopse.style.display = "block";
   }
